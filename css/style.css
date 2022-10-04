@@ -271,6 +271,8 @@ nav{
     transition: var(--transition-speed);
   }
 
+
+
   h1 {
     text-align: center;
     padding: 50px;
@@ -352,4 +354,29 @@ nav{
   .footer img{
     width: 50px;  
     height: 50px;
+}
+
+
+
+
+.container {
+  /* position: relative; */
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.container img {vertical-align: top;}
+
+.container .content {
+  
+  position: fixed;
+  top: 100px;
+  background: rgb(227, 72, 72); /* Fallback color */
+  background: black;
+  color: #f1f1f1;
+  left: 65px;
+  width: 100%;
+  padding: 0px;
+  opacity: 33%;
 }

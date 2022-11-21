@@ -48,7 +48,7 @@ nav{
 .nav-links{
     margin-top: 37px;
     display: flex;
-    gap: 20px;
+    gap: 25px;
     height: 100%;
     padding-bottom: 0px
 }
@@ -126,7 +126,7 @@ nav{
       padding: 10px;
       position: absolute;
       right: 10px;
-      height: 200px;
+      height: 130px;
       top: 77px;
       background-color: #816540;
       display: flex;
@@ -426,6 +426,7 @@ nav{
 
 
 .fancy {
+  color: #c2a47c;
   font-family: 'DynaPuff', cursive;
   font-size: calc(14px + (26 - 14) * ((200vw - 100px) / (1600 - 300)));
   font-weight: bold;
@@ -438,9 +439,11 @@ nav{
 						7px 7px white;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: white;
+  
+  
  }
  .fancy2 {
+  color: #c2a47c;
   font-family: 'DynaPuff', cursive;
   font-size: calc(14px + (26 - 14) * ((200vw - 100px) / (1600 - 300)));
 	letter-spacing: 1.5rem;
@@ -452,9 +455,9 @@ nav{
 						7px 7px white;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: white;
  }
  .fancy3 {
+  color: #c2a47c;
   font-family: 'DynaPuff', cursive;
   font-size: calc(14px + (26 - 14) * ((200vw - 100px) / (1600 - 300)));
 	letter-spacing: 1.5rem;
@@ -466,8 +469,58 @@ nav{
 						7px 7px white;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: white;
  }
 #fut{
-  font-size: calc(14px + (26 - 14) * ((35vw - 100px) / (1600 - 300)));
+  font-size: calc(10px + (26 - 14) * ((50vw - 100px) / (1600 - 300)));
 }
+
+
+
+
+  /* Contact section */
+  
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+  }
+  
+  .contact-section-header > h2 {
+    font-size: calc(14px + (26 - 14) * ((350vw - 100px) / (1600 - 300)));
+  }
+  
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: calc(14px + (26 - 14) * ((130vw - 100px) / (1600 - 300)));
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  

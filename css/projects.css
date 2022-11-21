@@ -50,6 +50,14 @@ nav{
     border: 0px;
     padding: 0px;
 }
+.ako2 {
+  width: 75px;
+  height: 70%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  left: 20px;
+}
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -96,17 +104,18 @@ nav{
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 100%;
-        top: 9vh;
+        height: 35%;
+        top: 0vh;
         background-color: #816540;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 20%;
+        width: 10%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;} 
     .nav-links li{ opacity: 100%;}
     .burger{display: block;}
+    #ako2{display: none;}
 }
 
 .nav-active{

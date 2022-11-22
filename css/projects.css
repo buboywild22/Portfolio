@@ -104,7 +104,7 @@ nav{
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 35%;
+        height: 30%;
         top: 0vh;
         background-color: #816540;
         display: flex;
@@ -253,4 +253,14 @@ nav{
       -webkit-transform: rotateY(0deg);
               transform: rotateY(0deg);
     }
+  }
+
+   #drag-container{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  .control{
+ padding-left: 50%;
+ font-size: calc(10px + (26 - 14) * ((70vw - 50px) / (1600 - 300)));
   }
